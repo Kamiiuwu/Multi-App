@@ -1,6 +1,6 @@
 import Styles from './Layout.module.css';
 
-import { githubIcon } from '../../icons/Icons';
+import { githubIcon, linkedinIcon } from '../../icons/Icons';
 
 const Layout = ({ children }) => {
     return (
@@ -11,8 +11,11 @@ const Layout = ({ children }) => {
                     KAMI
                 </div>
                 <div className={Styles.headerSocial}>
-                    <a href="https://github.com/Kamiiuwu" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Kamiiuwu" target="_blank" rel="noopener noreferrer" className={Styles.headerSocialLink}>
                         {githubIcon()}
+                    </a>
+                    <a href="https://www.linkedin.com/in/jorge-medrano-ramirez/" target="_blank" rel="noopener noreferrer" className={Styles.headerSocialLink + " " + Styles.linkedin}>
+                        {linkedinIcon()}
                     </a>
                 </div>
             </header>

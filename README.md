@@ -37,9 +37,9 @@ src/
 ├── assets/
 │   ├── apps/
 │   │   ├── cal-imc/          # BMI Calculator
-│   │   ├── gen-citas/        # Quote Generator
-│   │   └── icons/            # SVG Icons
+│   │   └── gen-citas/        # Quote Generator
 │   ├── buttons/              # Reusable Button Components
+│   ├─── icons/               # SVG Icons
 │   └── components/
 │       ├── background/       # Animated Background
 │       └── layout/           # Layout Components

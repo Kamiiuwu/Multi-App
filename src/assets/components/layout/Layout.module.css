@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(151, 151, 151, 0.05));
+    background: linear-gradient(135deg, rgba(72, 83, 145, 0.192), rgba(0, 0, 0, 0.2) 20%,  rgba(99, 99, 99, 0.05) );
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -42,6 +42,25 @@
     align-items: center;
     gap: 1rem;
     padding: 0.5rem 1rem;
+}
+
+.headerSocialLink {
+    color: rgba(255, 255, 255, 0.7);
+    transition: 
+        color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+}
+
+.headerSocialLink:hover {
+    box-shadow: 0 0 10px 2px #ffffff;
+    color: #fff;
+    transform: scale(1.13);
+}
+
+.linkedin {
+    border-radius: 10px;
 }
 
 .title {
