@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Styles from './Carousel.module.css';
 import GenCitas from '../../apps/gen-citas/GenCitas';
 import CalImc from '../../apps/cal-imc/CalImc';
-import { flechaDer, flechaIzq } from '../../apps/icons/Icons';
+import { flechaDer, flechaIzq } from '../../icons/Icons';
 
 const Carousel = () => {
     // Array de aplicaciones disponibles

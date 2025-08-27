@@ -1,6 +1,6 @@
 import Styles from './Layout.module.css';
 
-import { githubIcon } from '../../apps/icons/Icons';
+import { githubIcon } from '../../icons/Icons';
 
 const Layout = ({ children }) => {
     return (
